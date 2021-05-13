@@ -4,6 +4,7 @@
 
 A two week project that aimed to determine which non-renovatable features had the highest impact in house price (for renovatable investment) and to predict which houses had abnormal sales so that a company may be able to detect a better deal on housing.
 ---
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Part 1 - Estimating the value of homes from fixed characteristics](#Estimating-the-value-of-homes-from-fixed-characteristics)
