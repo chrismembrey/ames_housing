@@ -29,12 +29,14 @@ Here are the results for the linear regresion models ran. The index represents t
 <img width="738" alt="Screenshot 2021-05-13 at 21 14 33" src="https://user-images.githubusercontent.com/76961031/118182220-a3889800-b430-11eb-9d8b-0c052400f6c7.png">
 
 Here are the coefficients and thier graphical representation.
+
 <img width="296" alt="Screenshot 2021-05-13 at 21 04 19" src="https://user-images.githubusercontent.com/76961031/118181229-68d23000-b42f-11eb-8df7-bd613ad0faa7.png">
 
 <img width="630" alt="Screenshot 2021-05-13 at 21 03 04" src="https://user-images.githubusercontent.com/76961031/118181302-830c0e00-b42f-11eb-8810-0b5cebce74d7.png">
 
 
-Below you can see the unit values representing the change in the sales price when a feature is increased by one. This is naturally higher for binary variables such as 
+Below you can see the unit values representing the change in the sales price when a feature is increased by one. This is naturally higher for binary variables such as is the property in neighborhood NoRidge (Northridge).
+
 <img width="373" alt="Screenshot 2021-05-13 at 21 03 56" src="https://user-images.githubusercontent.com/76961031/118181240-6c65b700-b42f-11eb-965e-35fabc6f3025.png">
 
 ## Part 2 - Determine any value of changeable property characteristics unexplained by the fixed ones
