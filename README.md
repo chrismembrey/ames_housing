@@ -2,7 +2,9 @@
 
 ![cover](https://user-images.githubusercontent.com/76961031/118164116-a1b3da00-b41a-11eb-86da-3539191a3fa7.jpeg)
 
-A two week project that aimed to determine which non-renovatable features had the highest impact in house price (for renovatable investment) and to predict which houses had abnormal sales so that a company may be able to detect a better deal on housing.
+A two week project that aimed to determine which non-renovatable features had the highest impact in house price (for renovatable investment) and to predict which houses had abnormal sales so that a company may be able to detect a better deal on housing. 
+
+The dataset ca be found on kaggle, with a data dictionary of all the variables: https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data
 ---
 
 ## Table of Contents
@@ -14,6 +16,9 @@ A two week project that aimed to determine which non-renovatable features had th
 ---
 ## Introduction
 
+In this project I'm trying to make a relevent business case out of the Ames dataset. Housing data such as this could be used by companies or individuals who invest in real estate to determine cost implications of renovations. The first part of the study aims to create a model that can accuratley predict the sale price of residential property and identify the features that have the greatest effect on the sale price. The using I will use the renovatable features of property to see how much of the variance left in the sale price from the first model can be explained by these features (and again see which renovatable features have the highest impact on the explaied variance). The final part of the project aims to identify the features of a property that lead to an abnormal sale.
+
+Below are the conclusions for each part, for a deeper insight into the dataset (cleaning & EDA), please feel free to read the jupiter notebook attached to this readme.
 
 ## Part 1 - Estimating the value of homes from fixed characteristics
 
@@ -24,3 +29,30 @@ A two week project that aimed to determine which non-renovatable features had th
 <img width="630" alt="Screenshot 2021-05-13 at 21 03 04" src="https://user-images.githubusercontent.com/76961031/118181302-830c0e00-b42f-11eb-8810-0b5cebce74d7.png">
 
 <img width="373" alt="Screenshot 2021-05-13 at 21 03 56" src="https://user-images.githubusercontent.com/76961031/118181240-6c65b700-b42f-11eb-965e-35fabc6f3025.png">
+
+## Part 2 - Determine any value of changeable property characteristics unexplained by the fixed ones
+
+<img width="354" alt="Screenshot 2021-05-13 at 21 29 01" src="https://user-images.githubusercontent.com/76961031/118183668-455cb480-b432-11eb-873c-26839ecfb2b3.png">
+
+<img width="470" alt="Screenshot 2021-05-13 at 21 27 48" src="https://user-images.githubusercontent.com/76961031/118183697-50174980-b432-11eb-9011-5064213f65f9.png">
+
+<img width="446" alt="Screenshot 2021-05-13 at 21 27 58" src="https://user-images.githubusercontent.com/76961031/118183723-57d6ee00-b432-11eb-9d0d-99f501bba871.png">
+
+## Part 3 - What property characteristics predict an "abnormal" sale?
+
+An example of an abnormal sale for this dataset is a foreclosure (failing to keep up with mortgage payments, causing the mortgagor to have thier property taken) or short sale (investing such that the asset fails). By predicting whether a house could be under this bracket, investors will be able to make money by preventing the features that cause abnormal sales in thier won properties or by investing in short sales of other companies real estate. 
+
+Here is the performance table of the models ran.
+![Screenshot 2021-05-14 at 08 26 29](https://user-images.githubusercontent.com/76961031/118236526-16742c00-b48e-11eb-99ca-942b9c75bacb.png)
+
+The top features for the model are below, the greater the value of x (the coefficient for that variable), the greater the impact it has in determining a property as abnormal. 
+![Screenshot 2021-05-14 at 08 25 57](https://user-images.githubusercontent.com/76961031/118236466-03f9f280-b48e-11eb-8c1f-751ac1433dee.png)
+
+
+
+
+
+
+
+
+
