@@ -11,7 +11,7 @@ The dataset ca be found on kaggle, with a data dictionary of all the variables: 
 - [Introduction](#introduction)
 - [Part 1 - Estimating the value of homes from fixed characteristics](#Part-1---Estimating-the-value-of-homes-from-fixed-characteristics)
 - [Part 2 - Determine any value of changeable property characteristics unexplained by the fixed ones](#Part-2---Determine-any-value-of-changeable-property-characteristics-unexplained-by-the-fixed-ones)
-- [Part 3 - What property characteristics predict an "abnormal" sale?](#abnormal)
+- [Part 3 - What property characteristics predict an "abnormal" sale?](#Part-3---What-property-characteristics-predict-an-"abnormal"-sale?)
 
 ---
 ## Introduction
