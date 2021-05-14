@@ -71,6 +71,7 @@ The top features for the ridge model are below, the greater the value of x (the 
 The ideally we would want increased precision, limiting the number of false positives to make the safest investments. Here is the classification report for the ridge regression, showing the precision and recall, and the confusion matrix which breaks down how the model predicted each class.
 
 ![Screenshot 2021-05-14 at 13 38 11](https://user-images.githubusercontent.com/76961031/118272204-2c97e180-b4ba-11eb-94f7-4cd1f691b977.png)
+
 ![Screenshot 2021-05-14 at 13 22 36](https://user-images.githubusercontent.com/76961031/118272213-2f92d200-b4ba-11eb-97fc-17f96d56e95c.png)
 
 
