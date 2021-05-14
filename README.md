@@ -63,10 +63,15 @@ Here is the performance table of the models ran. Its important to note hat the c
 
 ![Screenshot 2021-05-14 at 08 26 29](https://user-images.githubusercontent.com/76961031/118236526-16742c00-b48e-11eb-99ca-942b9c75bacb.png)
 
-The top features for the model are below, the greater the value of x (the coefficient for that variable), the greater the impact it has in determining a property as abnormal. From the graph we can see the best predictor for an abnormal sale is the sale type. A newly built house is less likely to be sold in an abnormal condition. Houses without a masonary veneer are also less likely to be sold under abnormal conditions.
+The top features for the ridge model are below, the greater the value of x (the coefficient for that variable), the greater the impact it has in determining a property as abnormal. From the graph we can see the best predictor for an abnormal sale is the sale type. A newly built house is less likely to be sold in an abnormal condition. Houses without a masonary veneer are also less likely to be sold under abnormal conditions.
 
 ![Screenshot 2021-05-14 at 08 25 57](https://user-images.githubusercontent.com/76961031/118236466-03f9f280-b48e-11eb-8c1f-751ac1433dee.png)
 
+
+The ideally we would want increased precision, limiting the number of false positives to make the safest investments. Here is the classification report for the ridge regression, showing the precision and recall, and the confusion matrix which breaks down how the model predicted each class.
+
+![Screenshot 2021-05-14 at 13 38 11](https://user-images.githubusercontent.com/76961031/118272204-2c97e180-b4ba-11eb-94f7-4cd1f691b977.png)
+![Screenshot 2021-05-14 at 13 22 36](https://user-images.githubusercontent.com/76961031/118272213-2f92d200-b4ba-11eb-97fc-17f96d56e95c.png)
 
 
 
