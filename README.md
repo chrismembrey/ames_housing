@@ -18,7 +18,7 @@ The dataset ca be found on kaggle, with a data dictionary of all the variables: 
 
 In this project I'm trying to make a relevent business case out of the Ames dataset. Housing data such as this could be used by companies or individuals who invest in real estate to determine cost implications of renovations. The first part of the study aims to create a model that can accuratley predict the sale price of residential property and identify the fixed features (features that would require a planning consent to renovate) that have the greatest effect on the sale price. The using I will use the renovatable features of property to see how much of the variance left in the sale price from the first model can be explained by these features (and again see which renovatable features have the highest impact on the explaied variance). The final part of the project aims to identify the features of a property that lead to an abnormal sale.
 
-Below are the conclusions for each part, for a deeper insight into the dataset (cleaning & EDA), please feel free to read the jupiter notebook attached to this readme.
+Below are the conclusions for each part, for a deeper insight into the dataset (cleaning & EDA as well as a few extra models), please feel free to read the jupiter notebook attached to this readme.
 
 ## Part 1 - Estimating the value of homes from fixed characteristics
 
