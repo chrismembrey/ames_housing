@@ -59,7 +59,7 @@ Here we are taking into account variables that have a negative effect on sales p
 
 An example of an abnormal sale for this dataset is a foreclosure (failing to keep up with mortgage payments, causing the mortgagor to have thier property taken) or short sale (investing such that the asset fails). By predicting whether a house could be under this bracket, investors will be able to make money by preventing the features that cause abnormal sales in thier won properties or by investing in short sales of other companies real estate. 
 
-Here is the performance table of the models ran.
+Here is the performance table of the models ran. Its important to note hat the class imbalance was so servere (93%) that SMOTE oversampling had to be used in the preprocessing stages.
 
 ![Screenshot 2021-05-14 at 08 26 29](https://user-images.githubusercontent.com/76961031/118236526-16742c00-b48e-11eb-99ca-942b9c75bacb.png)
 
